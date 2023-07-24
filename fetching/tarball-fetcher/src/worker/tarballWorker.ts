@@ -1,4 +1,4 @@
-import { createCafs, getFilePathByModeInCafs } from '@pnpm/cafs'
+import { createCafs, getFilePathByModeInCafs } from '@pnpm/store.cafs'
 import { type DependencyManifest } from '@pnpm/types'
 import { parentPort } from 'worker_threads'
 import { Readable } from 'stream'

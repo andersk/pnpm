@@ -9,7 +9,6 @@ import { type FetchFromRegistry } from '@pnpm/fetching-types'
 import { type WorkerPool } from '@rushstack/worker-pool/lib/WorkerPool'
 import * as retry from '@zkochan/retry'
 import throttle from 'lodash.throttle'
-import { Readable } from 'stream'
 import { BadTarballError } from './errorTypes'
 
 const BIG_TARBALL_SIZE = 1024 * 1024 * 5 // 5 MB
